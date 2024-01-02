@@ -4,7 +4,7 @@ import React from 'react'
 const Home = async () => {
 
   try {
-    var res = await fetch("http://localhost:3000/api/profile", {
+    var res = await fetch("https://gallery-vikash0p.vercel.app/api/profile", {
       // next: { revalidate: 10 },
       cache: 'no-store'
     });
